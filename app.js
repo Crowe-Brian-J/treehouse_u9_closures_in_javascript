@@ -1,6 +1,14 @@
-let count = 0
+// Global Variable(s)
+//let count = 0
+let dogCount = 0
+let birdCount = 0
 
 const countBirds = () => {
-  count += 1
-  return count + ' birds'
+  birdCount += 1
+  return birdCount + ' birds'
+}
+
+const countDogs = () => {
+  dogCount += 1
+  return dogCount + ' dogs'
 }
